@@ -1,0 +1,75 @@
+.container {
+  position: relative;
+  display: contents;
+  .container-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+  }
+  .container-bgImg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .mainBanner {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 10rem 8.5rem 0;
+    .mainBanner-cont--right{
+      text-align: right;
+    }
+    .mainBanner-city {
+      font-size: 4rem;
+      color: $textColor;
+      line-height: 4.6875rem;
+      margin-bottom: 0.625rem;
+      margin-top: 0;
+    }
+    .mainBanner-date {
+      font-size: 1.25rem;
+      color: $textColor;
+      margin: 0;
+    }
+    .mainBanner-icon {
+      width: 6.0625rem;
+      height: 6.0625rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1rem;
+      img{
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+      }
+    }
+    .mainBanner-summary {
+      font-size: 1.875rem;
+      color: $textColor;
+      margin: 0;
+    }
+    .mainBanner-temp {
+      margin: 0;
+      font-size: 9rem;
+      color: $textColor;
+      line-height: 10.5rem;
+    }
+    .mainBanner-temps {
+      font-size: 3rem;
+      color: $textColor;
+      margin: 0;
+    }
+    .mainBanner-details {
+      margin: 0;
+      margin-top: 1.4375rem;
+      color: $textColor;
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+  }
+}

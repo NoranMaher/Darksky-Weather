@@ -1,0 +1,41 @@
+.header{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5rem 8.5rem 0;
+.header-logo{
+    color:$textColor;
+    font-size: 2.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.header-tempType{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .tempType-item{
+        width:4.75rem;
+        height:3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: $textColor;
+        text-transform: uppercase;
+        cursor: pointer;
+        &.active{
+            background: rgba(255, 255, 255, 0.25);
+        }
+    }
+    .tempType-sep{
+        width: 2px;
+        height: 2.9rem;
+        background-color: $textColor;
+        display: block;
+    }
+}
+}
